@@ -1,0 +1,73 @@
+<style>
+    .subscribe-button {  
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 105px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 9px ;
+        transition: opacity 0.15s;
+    }
+    .subscribe-button:hover{
+        opacity: 0.8;
+    }
+    /* hover is a psuedo class */
+    /* opacity take 0 to 1 vlue and it keeps facding lighter 1 to 0 */
+    .subscribe-button:active{
+        opacity: 0.5;
+    }
+     /* active reacts when we click on that button */
+    .join-button{
+        background-color: white;
+        border-color: blue;
+        border-style: solid;
+        border-width: 1px;
+        color: blue;
+        height: 30px;
+        width: 70px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 9px ;
+        transition: background-color 0.15s,color 0.15s;
+    }
+    .join-button:hover{
+        background-color: blue;
+         
+        color: white;
+    }
+    .join-button:active{
+        background-color: green;
+    }
+    .tweet-button{
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 85px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 0.15s;
+        
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+
+</style>
+<!-- css selector which element we are targeting like me target the button-->
+ <!-- to change the text colour of the button we have to use color-->
+  <!-- by adding class to buttons we can specifically design a unique button-->
+   <!-- margin is space in css -->
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+<button class="join-button">
+    JOIN
+</button>
+<button class="tweet-button">
+    Tweet
+</button>
